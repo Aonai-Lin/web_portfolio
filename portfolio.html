@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
+        <meta charset="UTF-8">
+        <meta http-equiv=“Pragma” content=”no-cache”>
+        <meta http-equiv=“Expires” content=”-1″>
+        <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+        <!-- CSS Stylesheets && Script Code-->
+        <link rel="stylesheet" href="./master.css">
+        <script src="./main.js"></script>
+        <!-- EmailJs service -->
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <title>Portfolio Project</title>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <div id="home">
+                <div class="personal_info">
+                    Linden Lin
+                    <div class="contact_info" id="email">
+                        <img src="./images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+                    000000000@qq.com
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div class="contact_info" id="phone_number">
+                        <img src="images/phone.png" alt="https://icons8.com/icon/set/phone/ios"/>
+                    13900000000
+                    </div>
+                </div>
+                <div id="topdiv" class="topdiv">
+                    <a class="topmenu" href="#about_me">About me</a>
+                    <a class="topmenu" href="#skills">Skills</a>
+                    <a class="topmenu" href="#projects">Projects</a>
+                    <a class="topmenu" href="#recommodations">Recommendations</a>
+                    <a class="topmenu" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- about me scetion-->
+        <section id="about-me" class="about-me-container">
+            <div>
+                <img src="./images/self_img.jpg" class="profile_image"/>
+            </div>
+            <div id="self_description">
+                <h1>
+                    Hi, I'm Linden Lin!<img src="./images/waving-hand.png" width="60px">
+                </h1>
+                <p>
+                    I am a full stack developer with 2 years of experience in both application and presentation layers.
+                    I have worked on applications and microservices deployed on IBM Cloud. 
+                    I am an avid user of IBM Watson Services and have worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+                </p>
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div style="clear:both;"></div>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="./images/html5.png"/>
+                    <h6>HTML5</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./images/CSS3.png"/>
+                    <h6>CSS3</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./images/js.jpeg"/>
+                    <h6>JavaScript</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./images/java.png"/>
+                    <h6>Java</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./images/react.png"/>
+                    <h6>React</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="./images/node.png"/>
+                    <h6>Node.js</h6>
+                    <p>2 years experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- project section -->
+         <section id="projects">
+          <h2>
+            Projects
+          </h2>
+          <div style="clear:both;"></div>
+
+          <div class="projects-container" id="projects-container">
+            <div class="project-card">
+              <h3>Chatbot</h3>
+              <!-- unorder list   -->
+              <ul>  
+                <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Chatbot</h3>
+              <ul>
+                <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Chatbot</h3>
+              <ul>
+                <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+              </ul>
+            </div>
+            <hr>
+          </div>
+         </section>
+
+        <!-- recommendation section -->
+         <section id="recommendations">
+            <h2>Recommodations</h2>
+            <div style="clear: both;"></div>
+            <div class="recommendations-container" id="all-rcommendations">
+               <div class="recommendation">
+                  <span>&#8220;</span>
+                  Jane is a very quick learner and quickly grasps key concepts of Web development. 
+                  She got a great attitude & she is an excellent team player. 
+                  She has a curious mind and asks the right question. 
+                  She takes initiative within a team and has potentials to lead the team.
+                  <span>&#8221;</span>
+                  <p>---name</p>
+               </div>
+               <div class="recommendation">
+                  <span>&#8220;</span>
+                     Jane is a very quick learner and quickly grasps key concepts of Web development. 
+                     She got a great attitude & she is an excellent team player. 
+                     She has a curious mind and asks the right question. 
+                     She takes initiative within a team and has potentials to lead the team.
+                  <span>&#8221;</span>
+                  <p>---name</p>
+               </div>
+               <div class="recommendation">
+                  <span>&#8220;</span>
+                  Jane is a very quick learner and quickly grasps key concepts of Web development. 
+                  She got a great attitude & she is an excellent team player. 
+                  She has a curious mind and asks the right question. 
+                  She takes initiative within a team and has potentials to lead the team.
+                  <span>&#8221;</span>
+                  <p>---name</p>
+               </div>
+            </div>
+         </section>
+
+         <!-- contact me section -->
+         <section id="contact">
+            <h2>Contact me</h2>
+            <div style="clear:both;"></div>
+            <div id="forms">
+            <div id="contact">
+               <fieldset>
+                  <legend class="introduction">Please leave your contact information<br>They will be sent to my mailbox</legend>
+                  <input id="name-contact" type="text" placeholder="name"><br/>
+                  <input id="user-email" type="email" placeholder="email"><br/>
+                  <textarea id="contact_info" cols="500" raws="10" placeholder="supplemental information(corporation/prganization/wechat...)"></textarea>
+                  <div class="flex-center">
+                     <button id="submitbutton" onclick="sendContactInfo()">Submit</button>
+                  </div>
+               </fieldset>
+            </div>
+
+            <div id="recommendate">
+               <fieldset>
+                  <legend class="introduction">Add your recommendation<br>They will be displayed on</legend>
+                  <input id="name-recommendation" type="text" placeholder="name"><br/>
+                  <textarea id="recommendation_info" cols="500" raws="10" placeholder="recommendation here please"></textarea>
+                  <div class="flex-center">
+                     <button id="submitbutton" onclick="addRecommendations()">Submit</button>
+                  </div>
+               </fieldset>
+            </div>
+         </div>
+         </section>
+
+         <!-- pop up window -->
+         <div  class="flex-center popup" id="popup-contact">
+            <img src="./images/checkmark--outline.svg"/>
+            <h3>Thank you<br/> I will contact you as soon as possible!</h3>
+            <button onclick="showPopupContact(false)">OK</button>
+         </div>
+
+         <div  class="flex-center popup" id="popup-recommendation">
+            <img src="./images/checkmark--outline.svg"/>
+            <h3>Thank you<br/> The recommendation has been on</h3>
+            <button onclick="showPopupRecommendation(false)">OK</button>
+         </div>
+
+
+         <!-- return home button -->
+         <div class="iconbutton">
+            <a href="#home">
+               <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+               </svg>
+            </a>
+         </div>
+
+    </body>
+
+    <footer>
+        <p class="copyright-text">© Copyright 2024 Linden Lin. All rights reserved.</p>
+    </footer>
+    <div style="clear:both;"></div>
+    </html>
+

@@ -1,0 +1,383 @@
+body {
+    /* background-color: white; */
+    /* background-color: black; */
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* navigation bar */
+#home{
+    background-color: #7600bc;
+    margin-top: -1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    padding-top:2cm;
+    padding-bottom: 2cm;
+    /* padding-left: 2cm; */
+    height:5mm;
+}
+
+
+.personal_info{
+    color: #fff;
+    padding-left: 2cm;
+    font-size: 30px;
+    float: left;
+    margin-top:-10px;
+
+}
+
+.personal_info .contact_info{
+    font-size: 15px;
+    font-style: italic;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.personal_info .contact_info img{
+    width:25px;
+    margin-right: 10px;
+    float:left
+}
+
+.topdiv{
+    float: right;
+    padding-right: 1cm;
+}
+
+.topmenu{
+    color:lightgray;
+    margin:10px;
+    padding-left:20px;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+
+.topmenu:hover{
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+} 
+
+/* titles */
+h2{
+    text-align: justify;
+    font-size: 50px;
+    color:#7600bc;
+    /* text-align: left; */
+    text-align: center;
+    float: left;
+    margin: 30px;
+    margin-left: 60px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+/* about me section*/
+
+.about-me-container{
+    display: flex;
+    background-color:rgb(237, 242, 244);
+    margin-left: -10px;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+}
+
+.profile_image{
+    width:350px;
+    height:fit-content;
+    vertical-align: middle;
+    margin:10px 15px;
+}
+
+#about-me h1{
+    font-size: 65px;
+    margin-top:95px;
+    color:#7600bc;
+}
+
+#about-me p{
+    font-size:25px;
+    color:rgb(128, 128, 128);
+    margin-top:0cm;
+}
+
+#self_description{
+    margin-left: 50px;
+}
+
+#about-me h1 img{
+    margin-left:30px;
+}
+
+/* skills section */
+
+.skills-container{
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    justify-content:center; 
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.skill{
+    border:1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin:30px;
+    padding: 10px;
+    width:2in;
+    height: 2in;
+    font-size:20px;
+    box-shadow:0 3px 10px gray;
+}
+
+.skill img{
+    width:35px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.skill h6{
+    align-items: center;
+    font-size: 20px;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+}
+
+.skill p{
+    align-items: center;
+    font-size: 15px;
+    color:gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+#skills,#recommendations h2{
+    margin-top:40px;
+}
+
+/* project section */
+.projects-container{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.projects-container hr{
+    border:1px solid lightgray;
+    width:75%;
+    margin-left: 5cm;
+}
+
+.project-card{
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+}
+
+.project-card h3{
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.project-card li{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* recommodation section */
+.recommendations-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-left: 1in;
+    padding: 20px;
+}
+
+.recommendation {
+    font-style: italic; /*斜体*/
+    text-align:justify;
+
+    /* 框框 */
+    width: 15rem;
+    background-color:#fff;
+    border:1px solid gray;
+    border-radius: 11px;
+    height:300px;
+    padding:20px;
+    margin:20px;
+    box-shadow: 0 2px 10px var(--primary-shadow);
+    font-size: 18px;
+    padding:1rem;
+
+}
+
+.recommendation span{
+    color:#7600bc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.recommendation p{
+    font-size: 18px;
+    float: right;
+    margin-top: 50px;
+    padding:3px;
+}
+
+/* contact information section */
+
+#forms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:10px 20px 30px;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, textarea{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin:5px 20px 10px;
+    width:90%;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+fieldset{
+    display: flexbox;   /*与flex区别*/
+    /* align-content: center;
+    justify-self: center; */
+    width: 500px;
+    height:310px;
+    margin:30px ;
+    padding:5px;
+    border: thin solid grey;
+    /* border: thin solid white; */
+
+}
+
+.introduction{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom:15px;
+
+    position: relative;
+}
+
+#contact textarea{
+    height: 110px;
+}
+
+#recommendate textarea{
+    height: 150px;
+}
+
+/* Form Pop-up */
+
+.popup{
+    display: flex;
+    flex-direction: column;
+    background-color: #e8bcf0;
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border: 1px solid#7600bc;
+    border-radius: 6px;
+    margin:10px;
+    /* position setting */
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+  }
+  
+  .popup img {
+    margin-top: 0px;
+    align-items: center;
+    /* border: 1px solid#7600bc; */
+
+  }
+  
+  .popup button {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top:10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+  
+  .popup button:hover {
+    background-color: #fff;
+    border: 2px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+
+
+
+/* return home button */
+.iconbutton{
+    background-color: #7600bc;
+    width: 48px;
+    height:48px;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    right:2%;
+    bottom: 2%;
+    position: fixed;
+    cursor:pointer;
+
+}
+
+/* Buttons */
+button{
+    background-color:white;
+    color:#7600bc;
+    border:1px solid #7600bc;
+    border-radius: 6px;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 5px;
+    width: 1in;
+}
+
+button:hover{
+    background-color: #7600bc;
+    color: white;
+    cursor: pointer;
+}
+
+.copyright-text{
+    text-align: center;
+}
+
+
